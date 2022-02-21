@@ -7,24 +7,20 @@ namespace WindowsFormsApp1
     {
         string first = "", second = "";
         double firstdb = 0, seconddb = 0, converter = 0;
+
+
+
         double GEL = 1, USD = 3.10, RUB = 0.04;
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void cbfirst_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            first = cbfirst.Text;
-        }
-
-        private void cbsecond_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            second = cbsecond.Text;
-        }
 
         private void btnequal_Click(object sender, EventArgs e)
         {
+            first = cbfirst.Text; 
+            second = cbsecond.Text;
             converter = Convert.ToDouble(tbfirst.Text);
             switch (first)
             {
@@ -33,7 +29,7 @@ namespace WindowsFormsApp1
                     break;
                 case "USD":
                     converter = converter * USD;
-                    break;
+                    break; 
                 case "RUB":
                     converter = converter * RUB;
                     break;

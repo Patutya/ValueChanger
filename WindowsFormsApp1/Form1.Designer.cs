@@ -42,11 +42,10 @@
             "USD",
             "RUB",
             "GEL"});
-            this.cbfirst.Location = new System.Drawing.Point(12, 12);
+            this.cbfirst.Location = new System.Drawing.Point(13, 10);
             this.cbfirst.Name = "cbfirst";
             this.cbfirst.Size = new System.Drawing.Size(44, 21);
             this.cbfirst.TabIndex = 0;
-            this.cbfirst.SelectedIndexChanged += new System.EventHandler(this.cbfirst_SelectedIndexChanged);
             // 
             // btnequal
             // 
@@ -83,7 +82,6 @@
             this.cbsecond.Name = "cbsecond";
             this.cbsecond.Size = new System.Drawing.Size(44, 21);
             this.cbsecond.TabIndex = 3;
-            this.cbsecond.SelectedIndexChanged += new System.EventHandler(this.cbsecond_SelectedIndexChanged);
             // 
             // Form1
             // 
@@ -96,7 +94,7 @@
             this.Controls.Add(this.btnequal);
             this.Controls.Add(this.cbfirst);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Converter1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
