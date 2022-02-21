@@ -42,7 +42,7 @@
             "USD",
             "RUB",
             "GEL"});
-            this.cbfirst.Location = new System.Drawing.Point(13, 10);
+            this.cbfirst.Location = new System.Drawing.Point(13, 12);
             this.cbfirst.Name = "cbfirst";
             this.cbfirst.Size = new System.Drawing.Size(44, 21);
             this.cbfirst.TabIndex = 0;
